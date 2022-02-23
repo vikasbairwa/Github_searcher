@@ -1,6 +1,6 @@
 const URL = process.env.REACT_APP_URL
 const TOKEN = process.env.REACT_APP_TOKEN
-
+console.log(TOKEN)
 export const searchUsers = async(text)=>{
     const params = new URLSearchParams({
         q:text

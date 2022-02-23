@@ -64,7 +64,7 @@ function User() {
             </div> */}
           </div>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-2 ">
           <div className="mb-6">
             <h1 className="text-3xl card-title">
               {name}
@@ -77,7 +77,7 @@ function User() {
                 </div>
               )}
             </h1>
-            <p>{bio}</p>
+            <p className='md:w-auto sm:w-auto'>{bio}</p>
             <div className="mt-4 card-actions">
               <a href={html_url} target='blank' className='btn btn-outline' rel='noreferrer'>
                 Visit Github Profile
