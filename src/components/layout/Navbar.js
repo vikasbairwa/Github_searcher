@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import { PropTypes  } from 'prop-types'
 function Navbar({title}) {
   return (
-      <nav className="navbar mb-10 shadow-lg bg-base-200 text-neutral-content">
+      <nav className=" font-[serif] navbar mb-10 bg-zinc-800 text-cyan-100 shadow-lg hover:shadow-cyan-500/50">
         <div className="container mx-auto">
           <div className="flex-none px-2 mx-2">
             <FaGithub className="inline pr-2 text-3xl"></FaGithub>

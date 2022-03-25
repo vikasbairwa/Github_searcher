@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function UserItem({user:{login, avatar_url}}) {
   return (
-    <div className='card shadow-lg  compact side bg-base-200'>
+    <div className=' card shadow-lg compact side bg-zinc-800 hover:shadow-indigo-500/50'>
         <div className="flex-row items-center space-x-4 card-body">
             <div>
                 <div className="avatar">

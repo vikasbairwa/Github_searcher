@@ -1,6 +1,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+        display: ['Raleway', ' sans-serif'],
+        body: ['oswald', 'Helvetica', 'Arial']
+    },
     extend: {},
     screens: {
       'sm': '640px',

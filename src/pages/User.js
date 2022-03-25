@@ -45,7 +45,7 @@ function User() {
 
   return (
     <>
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto font-[serif]">
       <div className="mb-4">
         <Link to='/' className='btn btn-ghost'>Back To Search</Link>
 
@@ -66,7 +66,7 @@ function User() {
         </div>
         <div className="col-span-2 ">
           <div className="mb-6">
-            <h1 className="text-3xl card-title">
+            <h1 className=" text-3xl card-title">
               {name}
               <div className="ml-2 mr-1 badge badge-success">
                 {type}
@@ -84,7 +84,7 @@ function User() {
                 </a>
             </div>
           </div>
-          <div className="w-full rounded-lg shadow-md bg-base-100 stats">
+          <div className="w-full rounded-lg shadow-md hover:shadow-indigo-500/50 bg-zinc-800 stats">
             {location &&(
               <div className="stat">
                 <div className="stat-title text-md">Location</div>
