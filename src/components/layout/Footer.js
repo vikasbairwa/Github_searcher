@@ -3,7 +3,7 @@ import {FaSlackHash} from 'react-icons/fa'
 function Footer() {
     const year = new Date().getFullYear();
   return (
-    <footer className="footer p-5 bg-gray-700 text-primary-content footer-center">
+    <footer className="footer p-5 bg-gray-800 text-primary-content footer-center">
         <div>
         <FaSlackHash size={40}/>
         <p>Created by Vikas {year}</p>
